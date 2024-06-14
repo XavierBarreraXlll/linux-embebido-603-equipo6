@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo 6 - temperature-display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Equipo 6 - Camara</h1>
+        <div class="controls">
+            <label for="serial-ports">Puertos Seriales:</label>
+            <select id="serial-ports">
+                <!-- Opciones dinámicas añadidas por JavaScript -->
+            </select>
+            <button id="refresh-ports">Actualizar Puertos Seriales</button>
+        </div>
+        <div class="controls">
+            <label for="baudrate">Baudrate:</label>
+            <select id="baudrate">
+                <option value="">Seleccionar Baudrate</option>
+                <option value="9600">9600</option>
+                <option value="19200">19200</option>
+                <option value="38400">38400</option>
+                <option value="57600">57600</option>
+                <option value="115200">115200</option>
+            </select>
+            <button id="connect-serial">Conectar Serial</button>
+        </div>
+        <div class="output">
+            <h2>Temperatura:</h2>
+            <div id="temperature-display">N/A</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
