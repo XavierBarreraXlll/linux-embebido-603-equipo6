@@ -12,11 +12,7 @@ from sensor_serial import BAUDRATES
 from sensor_serial import SensorSerial
 from utils import find_available_serial_ports
 
-# Assets
-back = "/home/equipo3/proyecto_final/Assets/Beige.png"
-texture = "/home/equipo3/proyecto_final/Assets/Wood.png"
-#button_sound = "/home/equipo3/proyecto_final/Assets/CHIME_FX_popper_01.wav"
-icon_path = "/home/equipo3/proyecto_final/Assets/icon.ico"
+
     
 # ========== Funciones Importantes de los Elementos ==========
     
