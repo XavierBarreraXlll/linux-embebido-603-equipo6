@@ -49,6 +49,3 @@ class SensorSerial:
         pass
     
     
-# from arduserial.sensor_serial import SensorSerial
-# arduino = SensorSerial('/dev/tty.usbmodem1101')
-# arduino.send('soy Grant')
